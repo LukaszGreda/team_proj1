@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RWD miniprojekt</title>
     <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/fixed.css" />
   </head>
@@ -62,16 +63,64 @@
   
  <!-- start COURSE -->
  <div id="course">
-	<div class="text-center col-12">
-	  <p>Zobacz wiecej o studiach</p>
-	  <a
-		class="btn btn-outline-secondary btn-md"
-		href="https://www.wsb.pl/chorzow/studia-i-szkolenia/studia-podyplomowe/kierunki/programista-front-end-z-angular"
-		target="_blank"
-		>Przekieruj mnie</a
-	  >
+	<h3 class="text-center pt-3">WIOSNA</h3>
+<!-- na MOBILE -->
+<div class="container">
+	
+	<div class="card-group d-lg-none">
+		<div class="row">
+<div class="card col-12 col-md-6 " style="width: 18rem;">
+	<img src="img/blossom-g93e285ac7_1920.jpg" class="card-img-top" alt="flower">
+	<div class="card-body">
+	  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 	</div>
   </div>
+<div class="card col-12 col-md-6" style="width: 18rem;">
+	<img src="img/daisy-g0a57b37ed_1920.jpg" class="card-img-top" alt="flower">
+	<div class="card-body">
+	  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	</div>
+  </div>
+<div class="card col-12" style="width: 18rem;">
+	<img src="img/muscari-g7ca00b798_1920.jpg" class="card-img-top" alt="flower">
+	<div class="card-body">
+	  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	</div>
+  </div>
+</div>
+</div>
+
+<!-- na komputery -->
+<div id="carouselExampleIndicators" class="carousel slide container d-none d-lg-block">
+	<div class="carousel-indicators">
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img src="img/blossom-g93e285ac7_1920.jpg" class="d-block w-100" alt="...">
+	  </div>
+	  <div class="carousel-item">
+		<img src="img/daisy-g0a57b37ed_1920.jpg" class="d-block w-100" alt="...">
+	  </div>
+	  <div class="carousel-item">
+		<img src="img/muscari-g7ca00b798_1920.jpg" class="d-block w-100" alt="...">
+	  </div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Next</span>
+	</button>
+  </div>
+
+</div>
+</div>
+  
   <!-- end COURSE -->
 
  <!-- start FEATURES -->
@@ -240,6 +289,11 @@
     <!--- Script Source Files -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
     <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
     <!--- End of Script Source Files -->
   </body>

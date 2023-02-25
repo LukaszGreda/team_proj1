@@ -32,8 +32,8 @@
 }
 
 /* course */
-#course{
-  background-color: lightgray;
+.card {
+  margin: 20px auto;
 }
 
 /* navigation */
