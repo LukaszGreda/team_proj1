@@ -4,7 +4,7 @@
 
 
 /*============= SECTION =============*/
-
+/* 
 .narrow {
   width: 75%;
   margin: 1.5rem auto;
@@ -34,12 +34,12 @@
 /* course */
 #course{
   background-color: lightgray;
-}
+} */
 
 /* navigation */
 
 .navbar {
-  background-color: black;
+  background-color: rgb(255, 0, 0);
   font-weight: bold;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
@@ -54,12 +54,12 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover{
-  color: aqua;
+  color: rgb(60, 255, 0);
 }
 
 /* landing */
 .home-inner{
-  background-image: url(img/computers.png);
+  background-image: url(img/new_bacground.jpeg);
   background-size: contain;
 }
 
